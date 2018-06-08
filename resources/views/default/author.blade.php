@@ -18,7 +18,7 @@
          <li class="tencent"><a href="{{ $github_url }}" target="_blank"><span>GitHub</span>路飞君1234</a></li>
          @endif
          @if($qq != "")
-        <li class="qq"><a><span>QQ号</span>{{ $qq }}</a></li>
+        <li class="qq"><a><span>邮箱</span>{{ $qq }}</a></li>
         @endif
     </ul>
 </div>
