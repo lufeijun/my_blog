@@ -55,7 +55,7 @@
                 <div class="markdown-body editormd-html-preview">
                     {!! $page->html_content !!}
                 </div>
-                <div style="margin-top:20px;">
+                <div style="margin-top:50px;">
                     <div id="share" class="social-share"></div>
                 </div>
                 <br><br>

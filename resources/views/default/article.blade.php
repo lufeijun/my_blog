@@ -2,6 +2,11 @@
 <?php
 $author = isset($user->id) ? $user : $userPresenter->getUserInfo();
 ?>
+<style>
+.cloud ul a {
+    height: 24px;
+}
+</style>
 @if($articles[0]!="")
     @foreach($articles as $article)
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >

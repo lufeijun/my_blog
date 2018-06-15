@@ -14,7 +14,7 @@
             @include('backend.alert.warning')
             @include('backend.alert.success')
             <div class="box box-solid">
-                <form role="form" method="post" enctype="multipart/form-data" action="{{ route('backend.upload.file-store') }}">
+                <form role="form" method="post" enctype="multipart/form-data" action="{{ route('lufeijun.upload.file-store') }}">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="file">保存路径</label>

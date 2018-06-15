@@ -73,7 +73,7 @@ class UploadService
 
 
         if($this->disk->put($saveFile,File::get($file->getPathname()))){
-            $url = route('backend.upload.index', ['dir' => $dir]);
+            $url = route('lufeijun.upload.index', ['dir' => $dir]);
             return ['status' => true, 'url' => $url];
         }
         return ['status' => false, 'msg' => '上传失败'];

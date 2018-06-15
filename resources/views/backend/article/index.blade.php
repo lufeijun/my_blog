@@ -48,10 +48,9 @@
                         @if ($articles)
                             @inject('articlePresenter', 'App\Presenters\ArticlePresenter')
 
-                            <?php $line = 1 ?>
                             @foreach($articles as $article)
                                 <tr>
-                                    <td>{{ $line }}</td>
+                                    <td>{{ $article->id }}</td>
                                     <td>
                                         @if($article->user)
                                             {{ $article->user->name }}
@@ -73,7 +72,6 @@
                                            class='btn btn-danger btn-xs article-delete'><i class="fa fa-trash-o"></i> 删除</a>
                                     </td>
                                 </tr>
-                                <?php $line++ ?>
                             @endforeach
                         @endif
                     </table>

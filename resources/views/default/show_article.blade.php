@@ -78,7 +78,7 @@ $author = isset($user->id) ? $user : $userPresenter->getUserInfo();
                 <div class="markdown-body editormd-html-preview" style="padding:0;">
                     {!! $article->html_content !!}
                 </div>
-                <div style="margin-top:20px;">
+                <div style="margin-top:50px;">
                     <div id="share" class="social-share"></div>
                 </div>
                 <br><br>
